@@ -16,4 +16,13 @@ Frameworks stack in Local:
 3. Spring Web
 
 ---------------------
-TDD Driven Approach
+1. TDD Driven Approach
+2. Postman for API Test
+
+Podman images commands
+---------------------
+Goto the Project folder and run commands:
+1. podman build -t spring-app:latest .
+2. podman run --name spring-app -p 9000:8080 -d localhost/spring-app:latest
+
+API documentation is available at URL: http://localhost:8080/swagger-ui/index.html 
